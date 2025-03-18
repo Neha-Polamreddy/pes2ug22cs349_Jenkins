@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'g++ hello.cpp -o PES2UG22CS349' // Compile hello.cpp and generate PES2UG22CS349 executable
+                    sh 'g++ new.cpp -o PES2UG22CS349' // Compile new.cpp and generate PES2UG22CS349 executable
                 }
             }
         }
